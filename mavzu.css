@@ -1,0 +1,22 @@
+                      /*Orqa fnga rasm berish!*/
+
+/* biz cssda tarif talab qilinmaydigan rasm berishimiz mumkin!*/
+/* css da bergan rasmimizni ko`zi ochizla o`qiy olmaydi */
+H1{
+color: green;
+text-decoration: underline;
+}
+p{
+  padding: 100px;
+  /*   background-image: url(./background-img.jpeg); ->   background-image ni urlda shu ko`rinishda beramiz! */
+  background-image: url(./background-img.jpeg); 
+   /*  background-repeat: no-repeat; -> orqa fondagi rasm takrorlanmasligi uchun ishlatilaadi!  */
+  background-repeat: no-repeat; 
+  /*   background-size: contain; -> rasm bo`yini border uzunligicha moslaydi nisbatini bo`lmagan holda */
+  /* background-size: contain; */
+  /*   background-size: cover; -> butun orqa fonni to`ldirib oladi!*/
+/*   background-position: right 100px top 0; -> orqa fondagi rasmni joylashuvini aniqlaydi */
+  background-position: right 100px top 0;
+  /*   background-position: center; -> orqa fon har tomondan o`rtaga kevoladi*/
+  
+}
